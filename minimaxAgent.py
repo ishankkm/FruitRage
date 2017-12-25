@@ -177,7 +177,9 @@ def eatFruits(grid, gridSize, positions):
     
     return lenP * lenP
   
+# Calculates the depth of the search based on Branching Factor, Grid Size and time remaining
 def calculateDepth(bFactor, gridSize, timeLeft):
+    # The values used here are empirical 
     
     #default
     depth = 2
